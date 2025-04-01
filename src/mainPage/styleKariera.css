@@ -1,0 +1,41 @@
+main {
+  padding: 40px 20px;;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+.navbar {
+  background-color: #17a2b8; /* Same bg-info color as in sluzby.html */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.navbar .nav-link:hover {
+  color: #d4f1f9; /* Lighter hover effect */
+}
+
+.navbar .nav-link.active {
+  font-weight: bold;
+  color: #d4f1f9;
+}
+footer {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  margin: 10px 0;
+}
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}

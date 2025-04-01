@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.navbar {
+  background-color: #17a2b8; /* Same bg-info color as in sluzby.html */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #d4f1f9; /* Lighter hover effect */
+}
+
+.navbar .nav-link.active {
+  font-weight: bold;
+  color: #d4f1f9;
+}
+
+.hero {
+  background: url('https://source.unsplash.com/1600x600/?technology') no-repeat center center;
+  background-size: cover;
+  color: rgb(19, 19, 19);
+  text-align: center;
+  padding: 50px 20px;
+  margin-top: 125px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.container h2 {
+  margin-top: 40px;
+  font-weight: bold;
+}
+.service-box {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.service-box:hover {
+  background: #e2e6ea;
+  transform: scale(1.05);
+}
+.mt-sluzby {
+  margin-top: 24px;
+}
